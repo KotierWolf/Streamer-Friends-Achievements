@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortable Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Omega Savage (Solo)</h1>
+    <table id="myTable" class="sortable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">Twitch Username</th>
+          <th onclick="sortTable(1)">Weapon</th>
+          <th onclick="sortTable(2)">Palico</th>
+          <th onclick="sortTable(3)">Time</th>
+          <th onclick="sortTable(4)">Video</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- ITEM 1 -->
+        <tr>
+          <td>
+            <a href="https://www.twitch.tv/lionheartleox" target="_blank"
+              >LionheartLeox</a
+            >
+          </td>
+          <td>Greatsword</td>
+          <td>Yes</td>
+          <td>34:36</td>
+          <td>
+            <a
+              href="https://www.twitch.tv/videos/2637993976?t=02h22m46s"
+              target="_blank"
+              >Past Broadcast</a
+            >
+          </td>
+        </tr>
+
+        <!-- ITEM 2  -->
+        <tr>
+          <td>
+            <a href="https://www.twitch.tv/serenesilent" target="_blank"
+              >SereneSilent</a
+            >
+          </td>
+          <td>Longsword</td>
+          <td>Yes</td>
+          <td>32:00</td>
+          <td>
+            <a
+              href="https://www.twitch.tv/videos/2626170835?t=02h10m22s"
+              target="_blank"
+              >Past Broadcast</a
+            >
+          </td>
+        </tr>
+
+        <!-- ITEM 3 -->
+        <tr>
+          <td>
+            <a href="https://www.twitch.tv/itsmeoversoul" target="_blank"
+              >itsmeOversoul</a
+            >
+          </td>
+          <td>Hunting Horn</td>
+          <td>Yes</td>
+          <td>31:31</td>
+          <td></td>
+        </tr>
+
+        <!-- ITEM 4 -->
+        <tr>
+          <td>
+            <a href="https://www.twitch.tv/kotierwolf" target="_blank"
+              >KotierWolf</a
+            >
+          </td>
+          <td>Sword & Shield</td>
+          <td>Yes</td>
+          <td>32:48</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script type="text/JAVASCRIPT" src="script.js"></script>
+  </body>
+</html>
